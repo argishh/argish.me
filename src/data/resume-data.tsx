@@ -1,70 +1,70 @@
 import {
-  ClevertechLogo,
   ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Argish Abhangi",
+  initials: "",
+  location: "Surat, India",
+  locationLink: "https://www.google.com/maps/place/Surat",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Machine Learning Engineer dedicated to building high-quality AI Powered products.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Machine Learning Engineer with a strong foundation in Machine Learning and Deep Learning. 
+      While I am just starting my professional journey, I am passionate about leveraging 
+      cutting-edge algorithms and techniques to solve complex problems and drive innovation. 
+      My goal is to contribute to impactful projects while continuously enhancing my skills 
+      in this dynamic and ever-evolving field. 
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+
+  avatarUrl: "https://avatars.githubusercontent.com/u/80659240?v=4",
+  personalWebsiteUrl: "https://argish.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "abhangiargish@gmail.com",
+    tel: "+919023472344",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/argishh",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/argish/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/argishh",
         icon: XIcon,
       },
     ],
   },
+
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Vellore Institute of Technology, Bhopal",
+      degree: "Integrated Masters's Degree in Artificial Intelligence",
+      start: "2020",
+      end: "2025",
     },
   ],
+
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Company Name",
+      link: "Company_Website",
+      badges: ["Langchain", "OpenAI", "Ollama", "CrewAI", "Streamlit"],
+      title: "Machine Learning Intern",
       logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      start: "July 2024",
+      end: "June 2024",
       description: (
         <>
+          !!!!!!! CHANGE THIS !!!!!!!!!
           Leading technical architecture of a blockchain-based film funding
           platform.
           <ul className="list-inside list-disc">
@@ -83,158 +83,85 @@ export const RESUME_DATA = {
         </>
       ),
     },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
   ],
+  
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Python",
+    "C++",
+    "SQL",
+    "PyTorch",
+    "LangChain",
+    "LangGraph",
+    "CrewAI",
+    "HuggingFace Transformers",
+    "Tensorflow",
+    "Keras",
+    "NLTK",
+    "OpenCV",
+    "FastAI",
+    "ChromaDB",
+    "SQLite",
+    "Numpy",
+    "Pandas",
+    "FireDucks",
+    "Scikit-learn",
+    "XGBoost",
+    "FastAPI",
+    "Flask",
+    "Streamlit",
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "HTML/CSS",
+    "Git/Github",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "ChatDocs",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+        "Python", 
+        "Langchain", 
+        "Openai", 
+        "FastAPI",
+        "ChromaDB,", 
+        "SQLite", 
+        "Pydantic", 
+        "Streamlit"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Developed a robust RAG-based chatbot with LangChain & OpenAI, achieving 95% context accuracy. Integrated the RAG pipeline with a Streamlit app via FastAPI & SQLite for efficient session management. Optimized system performance & user experience through intuitive architecture & accurate response delivery.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "chatdocsonline.streamlit.app",
+        href: "https://chatdocsonline.streamlit.app/",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "StockGinie",
+      techStack: [
+        "Python",
+        "PyTorch",
+        "Yfinance",
+        "Plotly",
+        "PyTest",
+        "Streamlit",
+      ],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
+        "Built a scalable stock price prediction system using LSTM, achieving an average R² score of 0.85. Automated data analysis, model training & inference with real-time data fetching & comprehensive logging. Deployed an interactive Streamlit dashboard for visualizing insights with dynamic graphs & charts.",
+      logo: ConsultlyLogo,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "stockginie.streamlit.app",
+        href: "https://stockginie.streamlit.app/",
+      },
+    },
+    {
+      title: "genfunc",
+      techStack: ["Python", "OpenAI", "Anthropic", "Logging", "PyTest"],
+      description:
+        "Shipped a python package that leverages power of LLMs to generate functions based on a given description. It reduces time taken to explicitly code one-time use functions & is useful to generate complex boilerplate code.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "PyPI/genfunc",
+        href: "https://pypi.org/project/genfunc/",
       },
     },
   ],
