@@ -1,5 +1,5 @@
 import {
-  ConsultlyLogo,
+  aLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -47,7 +47,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Vellore Institute of Technology, Bhopal",
-      degree: "Integrated Masters's Degree in Artificial Intelligence",
+      degree: "M.Tech AI (5 Year Integrated) | CGPA: 8.89",
       start: "2020",
       end: "2025",
     },
@@ -55,29 +55,109 @@ export const RESUME_DATA = {
 
   work: [
     {
-      company: "Company Name",
-      link: "Company_Website",
+      company: "Spigot InfoTech",
+      link: "https://www.spigotinfotech.in/",
       badges: ["Langchain", "OpenAI", "Ollama", "CrewAI", "Streamlit"],
-      title: "Machine Learning Intern",
-      logo: ConsultlyLogo,
-      start: "July 2024",
-      end: "June 2024",
+      title: "Software Development Intern (Python)",
+      start: "Dec 2023",
+      end: "Feb 2024",
       description: (
         <>
-          !!!!!!! CHANGE THIS !!!!!!!!!
-          Leading technical architecture of a blockchain-based film funding
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Designed and implemented RESTful APIs and Integrated third-party APIs and services to improve performance.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Collaborated with cross-functional teams to understand client requirements and deliver tailored solutions.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Spigot InfoTech",
+      link: "https://www.spigotinfotech.in/",
+      badges: ["Langchain", "OpenAI", "Ollama", "CrewAI", "Streamlit"],
+      title: "AI/ML Intern",
+      start: "March 2024",
+      end: "May 2024",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              Developed and deployed a web scraping pipeline leveraging BeautifulSoup & Selenium to auto-scrape data from 
+              30+ websites, boosting data extraction efficiency by 80% & reducing manual effort by 50 hours monthly.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Designed RAG pipelines and engineered prompt optimization techniques to improve response quality.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to integrate AI-driven chatbots and summarization tools.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Space Applications Centre - ISRO",
+      link: "https://www.sac.gov.in/Vyom/srtd",
+      badges: ["Python", "PyTorch", "OpenCV", "Zemax"],
+      title: "Machine Learning Intern",
+      start: "June 2024",
+      end: "July 2024",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              Developed a novel deep neural network architecture to automate the alignment of primary and secondary 
+              mirror segments for a telescope, enhancing precision and reducing manual intervention.
+            </li>
+            <li>
+              Utilized residual attention networks (RANs) & multi-scale feature extraction to optimize image processing tasks.
+            </li>
+            <li>
+              Proposed real-time feedback mechanisms to dynamically adjust mirror positioning for optimal alignment.
+            </li>
+            <li>
+              Collaborated with astrophysicists & optical engineers to understand telescope architecture & requirements, gather domain knowledge and integrate AI-driven solutions into the telescope's control systems.            
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Water Management and Forecasting, Omdena",
+      link: "https://dagshub.com/Omdena/AlgeriaBhopal_WaterManagementandForecasting/src/main/README.md",
+      badges: ["Python", "PyTorch", "Scikit-Learn", "Plotly", "Streamlit"],
+      title: "Open Source",
+      start: "",
+      end: "",
+      description: (
+        <>
+        <ul className="list-inside list-disc">
+          <li>
+            Developed, implemented & fine-tuned LSTM Network using recursive forecasting to predict water availability
+            with 96% accuracy using sensor data from the cities of Algiers & Bhopal. Deployed the model using Streamlit.
+          </li>
+        </ul>
+        </>
+      ),
+    },
+    {
+      company: "Greenhouse Monitoring Systems, Omdena",
+      link: "https://github.com/OmdenaAI/Algeria-Chapter-Green",
+      badges: ["Python", "Tensorflow", "Keras", "OpenCV", "HTML", "CSS", "JavaScript"],
+      title: "Open Source",
+      start: "",
+      end: "",
+      description: (
+        <>
+        <ul className="list-inside list-disc">
+            <li>
+              Built a plant disease & pests detection CNN model to identify 40+ diseases & pests with 98% accuracy.
+            </li>
+            <li>
+              Fine-tuned a plant species identification model using transfer learning to identify 20 species with 94% accuracy.
             </li>
           </ul>
         </>
@@ -106,6 +186,8 @@ export const RESUME_DATA = {
     "FireDucks",
     "Scikit-learn",
     "XGBoost",
+    "BeautifulSoup",
+    "Selenium",
     "FastAPI",
     "Flask",
     "Streamlit",
@@ -129,7 +211,7 @@ export const RESUME_DATA = {
         "Streamlit"],
       description:
         "Developed a robust RAG-based chatbot with LangChain & OpenAI, achieving 95% context accuracy. Integrated the RAG pipeline with a Streamlit app via FastAPI & SQLite for efficient session management. Optimized system performance & user experience through intuitive architecture & accurate response delivery.",
-      logo: ConsultlyLogo,
+      logo: aLogo,
       link: {
         label: "chatdocsonline.streamlit.app",
         href: "https://chatdocsonline.streamlit.app/",
@@ -147,7 +229,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Built a scalable stock price prediction system using LSTM, achieving an average R² score of 0.85. Automated data analysis, model training & inference with real-time data fetching & comprehensive logging. Deployed an interactive Streamlit dashboard for visualizing insights with dynamic graphs & charts.",
-      logo: ConsultlyLogo,
+      logo: aLogo,
       link: {
         label: "stockginie.streamlit.app",
         href: "https://stockginie.streamlit.app/",
@@ -158,7 +240,7 @@ export const RESUME_DATA = {
       techStack: ["Python", "OpenAI", "Anthropic", "Logging", "PyTest"],
       description:
         "Shipped a python package that leverages power of LLMs to generate functions based on a given description. It reduces time taken to explicitly code one-time use functions & is useful to generate complex boilerplate code.",
-      logo: ConsultlyLogo,
+      logo: aLogo,
       link: {
         label: "PyPI/genfunc",
         href: "https://pypi.org/project/genfunc/",
