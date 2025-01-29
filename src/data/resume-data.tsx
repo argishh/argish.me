@@ -119,7 +119,7 @@ export const RESUME_DATA = {
               Proposed real-time feedback mechanisms to dynamically adjust mirror positioning for optimal alignment.
             </li>
             <li>
-              Collaborated with astrophysicists & optical engineers to understand telescope architecture & requirements, gather domain knowledge and integrate AI-driven solutions into the telescope's control systems.            
+              Collaborated with astrophysicists & optical engineers to understand telescope architecture & requirements, gather domain knowledge and integrate AI-driven solutions into the telescope&apos;s control systems.            
             </li>
           </ul>
         </>
