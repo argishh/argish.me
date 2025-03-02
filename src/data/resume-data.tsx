@@ -58,26 +58,6 @@ export const RESUME_DATA = {
       company: "Spigot InfoTech",
       link: "https://www.spigotinfotech.in/",
       badges: ["Langchain", "OpenAI", "Ollama", "CrewAI", "Streamlit"],
-      title: "Software Development Intern (Python)",
-      start: "Dec 2023",
-      end: "Feb 2024",
-      description: (
-        <>
-          <ul className="list-inside list-disc">
-            <li>
-              Designed and implemented RESTful APIs and Integrated third-party APIs and services to improve performance.
-            </li>
-            <li>
-              Collaborated with cross-functional teams to understand client requirements and deliver tailored solutions.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Spigot InfoTech",
-      link: "https://www.spigotinfotech.in/",
-      badges: ["Langchain", "OpenAI", "Ollama", "CrewAI", "Streamlit"],
       title: "AI/ML Intern",
       start: "March 2024",
       end: "May 2024",
