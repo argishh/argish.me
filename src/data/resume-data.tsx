@@ -51,6 +51,18 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2025",
     },
+    {
+      school: "Ryan International School, Surat",
+      degree: "Secondary Higher Education (XII) | Grade - 85%",
+      start: "2019",
+      end: "2020",
+    },
+    {
+      school: "Ryan International School, Surat",
+      degree: "Higher Education (X) | Grade - 73%",
+      start: "2017",
+      end: "2018",
+    },
   ],
 
   work: [
