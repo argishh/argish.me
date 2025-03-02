@@ -191,6 +191,25 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Realtime Multimodal Emotion Recognition | 🛠️ In Progress",
+      techStack: [
+        "Python", 
+        "PyTorch", 
+        "Tensorflow",
+        "Keras", 
+        "Huggingface-Transformers", 
+        "KaggleHub", 
+        "Mediapipe", 
+        "PyQT5"],
+      description:
+        "Training a Text + Audio + Vision multimodal for state-of-the-art realtime emotion recognition.",
+      logo: aLogo,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
       title: "ChatDocs",
       techStack: [
         "Python", 
