@@ -1,7 +1,7 @@
 import {
   aLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, HuggingfaceIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Argish Abhangi",
@@ -40,6 +40,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://x.com/argishh",
         icon: XIcon,
+      },
+      {
+        name: "Huggingface",
+        url: "https://huggingface.co/argish",
+        icon: HuggingfaceIcon,
       },
     ],
   },
