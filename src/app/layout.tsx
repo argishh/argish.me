@@ -38,7 +38,7 @@ export default function RootLayout({
           >
             enable JavaScript
           </a>{" "}
-          to chat with the Arc AI (Believe me, you don't wanna miss it).
+          to chat with the Arc AI (Believe me, you don&apos;t wanna miss it).
         </noscript>
         {/* End of OpenWidget code */}
       </body>
